@@ -8,7 +8,7 @@ class Molecule {
 
   void expressMolecule() {
     for (Atom atom in atoms) {
-      print("${atom.proton} numaralı ${atom.symbol} atomuyum");
+      atom.expressAtom();
     }
   }
 }
